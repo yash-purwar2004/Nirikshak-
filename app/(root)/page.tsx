@@ -51,8 +51,9 @@ const Home = async () => {
             <InterviewCard {...interview} key={interview.id}
             />
           ))}
-            <p>There are no interviews available</p>
+            
         </div>
+        <p>There are no interviews available</p>
       </section>
     </>
   );
